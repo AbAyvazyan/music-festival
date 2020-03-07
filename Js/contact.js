@@ -4,6 +4,9 @@ $(window).on("load",function(){
 
 
 $(document).ready(function(){
+
+  $(".navbar").animate({"margin-bottom":"0"},1500);
+  
     $(window).on("scroll",function(){
 
         if ($(this).scrollTop() > 50) {
