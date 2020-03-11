@@ -184,7 +184,7 @@ footer i{
    }
 }
 
-@media screen and (max-width: 575px) and (min-width: 310px)  {
+@media only screen and (max-width: 575px)  {
     .navbar div:last-child{
         border-right: 1px solid white;
     }
@@ -195,4 +195,14 @@ footer i{
 
   }
 
-  
+  @media screen and (max-width: 650px) and (min-width: 510px)  {
+    .add{
+        font-size: 15px;
+    }
+ }
+ 
+ @media only screen and (max-width:450px){
+     .text{
+         font-size: 20px;
+     }
+ } 
